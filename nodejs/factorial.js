@@ -1,13 +1,16 @@
 function factorial(n) {
   let product = 1
   while (n > 0) {
-    n -= 1
-    product *= n
+
+    product *= n;
+    n -= 1;
+    
   }
+  console.log('product'+product);
   return product
 }
 
 // Expected output:
 //
-// > factorial(5)
+factorial(5)
 // => 120
