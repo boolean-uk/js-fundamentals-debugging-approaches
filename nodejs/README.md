@@ -92,10 +92,10 @@ fs.readFile('char-set.txt', 'utf8', (err, data) => {
   }
 
   charSet = parseCharacterSet(data)
-  console.log(util.inspect(encode('Hi, mse-2103-a!', 4)))
+  console.log(util.inspect(encode('Hi, Booleaners!', 4)))
 })
 
-// Expected console output => '391482051824106893920294680658'
+// Expected console output => '391482053320201710061910232458'
 ```
 
 
@@ -193,10 +193,10 @@ fs.readFile('char-set.txt', 'utf8', (err, data) => {
   }
 
   charSet = parseCharacterSet(data)
-  console.log(util.inspect(encode('Hi, mse-2103-a!', 4)))
+  console.log(util.inspect(encode('Hi, Booleaners!', 4)))
 })
 
-// Expected console output => '391482051824106893920294680658'
+// Expected console output => '391482053320201710061910232458'
 ```
 
 Your task is **not** to fix this code. Let go of that idea.
@@ -355,8 +355,8 @@ fs.readFile('char-set.txt', 'utf8', (err, data) => {
   }
 
   charSet = parseCharacterSet(data)
-  console.log(util.inspect(decode('391482051824106893920294680658', 4)))
+  console.log(util.inspect(decode('391482053320201710061910232458', 4)))
 
-  // Expected console output => 'Hi, mse-2103-a!'
+  // Expected console output => 'Hi, Booleaners!'
 })
 ```
